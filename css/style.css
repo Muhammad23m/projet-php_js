@@ -1,0 +1,103 @@
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+body {
+    background: linear-gradient(to right, #f25b06, #f7b99af1);
+}
+
+.main {
+    margin-top: 120px;
+    margin-left: 50px;
+    display: flex;
+    color: white;
+}
+.left .image {
+   padding-bottom: 30px;
+}
+.left h2 {
+    font-size: 70px;
+    text-align: center;
+}
+.left li {
+    padding-top: 50px;
+}
+#form {
+   background-color: white;
+    display: flex;
+    margin-right: 20px;
+    margin-top: 60px;
+    justify-content: space-between;
+   
+}
+#form input {
+    display: block;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background: #FFF;
+    width: 232px;
+    height: 25px;
+    flex-shrink: 0;
+}
+
+.right .partie1 {
+  margin-right: 40px;
+  background-color: white;
+  
+}
+.right {
+    margin-right: 80px;
+    background-color: white;
+    padding: 20px 50px 100px 66px;
+    border-radius: 125px 0px 0px 125px; 
+    width: 698px;
+    height: 392px;
+    flex-shrink: 0;
+   
+}
+.right .partie2 {
+    background-color: white;
+}
+.right .title {
+color: rgba(0, 0, 0, 0.70);
+font-size: 30px;
+font-family: Poppins;
+background-color: white;
+text-align: center;
+}
+
+button {
+    color: black;
+    padding: 10px 20px;
+    margin-top: 5px;
+    margin-left: 140px;
+    border: 2px;
+    border-color: #f25b06;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f25b06;
+    color: white;
+}
+li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  li a:hover{
+    background-color: black;
+    color: white;
+  }
+
+  li {
+    list-style-type: none;
+  }  
+ 
